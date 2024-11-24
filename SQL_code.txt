@@ -15,7 +15,7 @@ LIMIT 10;
 Task 4:
 SELECT COUNT(*) AS row_count
 FROM mydb.products
-WHERE price >= 20 AND price <= 100
+WHERE price between 20 AND 100;
 
 Task 5:
 SELECT supplier_id, COUNT(id) AS products_count, AVG(price) AS avg_price
